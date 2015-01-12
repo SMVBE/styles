@@ -1,0 +1,146 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("smvb.net") {
+
+  body{
+    background:black;
+    font: bold 10pt/125% monospace;
+  }
+  
+  
+  .main .section .sectionRow {
+      background: none repeat scroll 0 0 black;
+      border: 4px inset darkgray;
+      margin-top: 4px;
+  }
+  
+  a{
+    color:red;
+  }
+  
+  .main .ui_filter .ui_filter_head, .main .section .sectionHead{
+    background:gray;
+    font: 10pt/150% monospace;
+  }
+  
+  
+.main .ui_filter .ui_filter_head a.active{
+  font: bold 10pt/150% monospace;
+}
+  
+  
+.main .ui_filter .ui_filter_head a {
+    color: blue;
+}
+  .sidebarSection {
+    background-color: gray;
+  }
+  
+  .head .logo .instanceName {
+    font: 10pt/100% monospace;
+}
+  
+  .sidebarSection > div:first-child {
+    border-radius: 0;
+    margin-top: 0;
+}
+  
+
+  .sidebarSection .sidebarHead {
+    background: none repeat scroll 0 0 gray;
+}
+ .sidebarSection .sidebarRow {
+    background: none repeat scroll 0 0 black;
+    border-top: 1px solid #aaaaaa;
+    color: gray;
+}
+  
+   .sidebarSection h3 {
+    background: gray;
+    color: white;
+    text-decoration: underline;
+}
+  
+  .sidebarSection a {
+    color: red;
+}
+  
+  .sidebarSection .sidebarRow, .sidebarSection .ui_filter_head, .sidebarSection .ui_paginate_foot { 
+    padding: 4.5px 0;
+  }
+  ul.ul { 
+    margin-left: 9px; 
+}
+  
+  .delegation_info:before {
+    color: green;
+    content: "==>";
+}
+  
+  .delegation_info img:first-child {
+    display: none;
+}
+  
+  .sidebarSection a.unit {
+    font: bold 12pt/100% monospace;
+}
+  .suspended:before {
+    color: orange;
+    content: "<o>";
+} 
+  
+  .delegation_info.suspended {
+    opacity: 1;
+}
+  .delegation_info.suspended img {
+    opacity: 0.3;
+}
+  
+  .issue_context img.star{
+    display:none;
+  }
+  
+  .sidebarSection .sidebarRow { 
+    border-top: 0 solid black; 
+}
+    
+
+  .sidebarRow img.star:before{
+    content:"*"
+  }
+  
+  
+h1 {
+    font: bold 12pt/125% monospace;
+    margin-bottom: 1ex;
+}
+  
+  .main .draft {
+    color: darkgray;
+    font: 10pt/125% monospace;
+}
+  
+  
+.slot_title {
+      font: 10pt/125% monospace;
+}
+  
+ .suggestion-text, h1, h2, h3, h4, .sidebarSection .sidebarHead a{
+    font-family:monospace !important;
+  }
+  
+  .suggestion-text{
+    color:darkgray;
+  }
+  
+  .ui_paginate_foot a{
+    border-radius:0;
+  }
+  
+  .ui_paginate_foot a.active{
+    background:red;
+    border: 4px outset green;
+  }
+  
+}
+
