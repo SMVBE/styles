@@ -1,0 +1,12 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("smvb.net") {
+
+    .member_image, .member_name, .microAvatar img, .microAvatar span{
+	opacity:0;
+    }
+
+    .delegation_info, .member_thumb a, .microAvatar{
+	background:gray;
+    }
+}
