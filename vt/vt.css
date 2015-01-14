@@ -1,0 +1,67 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("smvb.net") {
+
+   .slot_title:before{
+     content:"Fnord";
+   }
+  
+  div:nth-of-type(6n+4) div:nth-of-type(3n+2){
+   background:black;
+    color:black;
+  }   
+  div:nth-of-type(6n+4) div:nth-of-type(3n+2){
+   content:"fnord";
+  } 
+     
+  div:nth-of-type(5n+5) div:nth-of-type(2n+2){
+   opacity:0.01;
+  }   
+  div:nth-of-type(5n+5) div:nth-of-type(2n+2){
+   content:"fnord";
+  } 
+   
+  .event:nth-child(3) .unit{
+    background:white;
+  }
+  
+  .sectionRow:nth-of-type(7n+2){
+   background:black;
+    color:black; 
+  }
+  .sectionRow:nth-of-type(7n+2):before{
+   content:"fnord";
+  } 
+   
+  
+  
+  .event:nth-of-type(6n+3){ 
+    text-decoration:line-through;
+  }     
+  .event:nth-of-type(6n+3):after{ 
+    content:"FN0ЯD";
+  }  
+  
+  a:nth-of-type(6n){
+    font-size:11%;
+  }  
+  
+  a:nth-of-type(6n):after{
+    content:"FN0ЯD";
+  }
+  
+  ul:nth-child(odd){
+    list-style-image:url("http://rhein-neckar-industriekultur.de/sites/default/files/23.png")
+  }
+  
+  ul:nth-child(even){
+    list-style-image:url("https://gp4.googleusercontent.com/-yg0c0pLRtho/AAAAAAAAAAI/AAAAAAAAADE/6ktklEv8Hyg/s48-c-k-no/photo.jpg")
+  }
+  
+  .sidebarRow:nth-child(2){
+    font-size:11%;    
+  }
+  .sidebarRow:nth-child(2):after{
+    content:"Fnord";
+  }
+}
